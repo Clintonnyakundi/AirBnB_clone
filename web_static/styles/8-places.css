@@ -9,6 +9,9 @@
 .places h1 {
     font-size: 30px;
     padding-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 0;
+    flex: 0 1 100%;
 }
 
 .places article {
@@ -18,16 +21,21 @@
     border: 1px solid #ff5a5f;
     border-radius: 4px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
 }
 
 .places article h2 {
     font-size: 30px;
+    align-self: center;
+    margin: 0;
+    padding-bottom: 50px;;
 }
 
 .price_by_night {
     color: #ff5a5f;
-    border: 4px rounded #ff5a5f;
+    border: 4px solid #ff5a5f;
     min-width: 60px;
     height: 60px;
     font-size: 30px;
@@ -35,6 +43,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: auto;
+    position: absolute;
+    top: 10px;
+    right: 20px;
 }
 
 .price_by_night p {
@@ -47,7 +59,8 @@
     width: 100%;
     height: 80px;
     display: flex;
-    float: left;
+    justify-content: center;
+    align-items: center;
 }
 
 .max_guest, .number_rooms, .number_bathrooms {
@@ -78,7 +91,7 @@
 }
 
 .bed_image {
-    background: url("..images/icon_bed.png") no-repeat center;
+    background: url("../images/icon_bed.png") no-repeat center;
     height: 50px;
     width: 50px;
 }
