@@ -2,11 +2,15 @@ header {
     color: white;
     height: 60px;
     width: 100%;
-    border-bottom: 1px #cccccc;
+    border-bottom: 1px solid #cccccc;
+    display: flex;
+    align-items: center;
 }
 
 .logo {
     background-image: url(../images/logo.png);
     position: absolute;
+    height: 60px;
+    width: 150px;
     left: 20px;
 }
