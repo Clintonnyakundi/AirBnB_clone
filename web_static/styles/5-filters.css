@@ -19,6 +19,7 @@ section.filters button {
     border-radius: 4px;
     margin-right: 30px;
     margin-left: auto;
+    cursor: pointer;
 }
 
 section.filters button:hover {
